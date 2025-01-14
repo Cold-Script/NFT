@@ -36,7 +36,7 @@ function Nofitication:Notify(nofdebug, middledebug, all)
     UiStroke.Parent = Window
     UiStroke.Color = Color3.fromRGB(0, 200, 255)
 
-    UiStroke.Parent = Window
+    UiCorner.Parent = Window
 
     Outline_A.Name = "Outline_A"
     Outline_A.Parent = Window
